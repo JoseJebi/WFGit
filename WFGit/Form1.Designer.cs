@@ -30,6 +30,7 @@
         {
             this.btAceptar = new System.Windows.Forms.Button();
             this.btSegundo = new System.Windows.Forms.Button();
+            this.lblPepito = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btAceptar
@@ -50,17 +51,28 @@
             this.btSegundo.Text = "NUEVO";
             this.btSegundo.UseVisualStyleBackColor = true;
             // 
+            // lblPepito
+            // 
+            this.lblPepito.AutoSize = true;
+            this.lblPepito.Location = new System.Drawing.Point(521, 66);
+            this.lblPepito.Name = "lblPepito";
+            this.lblPepito.Size = new System.Drawing.Size(91, 20);
+            this.lblPepito.TabIndex = 2;
+            this.lblPepito.Text = "Soy Pepito";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPepito);
             this.Controls.Add(this.btSegundo);
             this.Controls.Add(this.btAceptar);
             this.Name = "Form1";
             this.Text = "Formulario de ejemplo 3";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.Button btSegundo;
+        private System.Windows.Forms.Label lblPepito;
     }
 }
 
