@@ -1,4 +1,4 @@
-﻿namespace WFGit
+namespace WFGit
 {
     partial class Form1
     {
@@ -30,6 +30,7 @@
         {
             this.btAceptar = new System.Windows.Forms.Button();
             this.btSegundo = new System.Windows.Forms.Button();
+            this.lblPepito = new System.Windows.Forms.Label();
             this.lblJuanito = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -57,14 +58,24 @@
             this.lblJuanito.Location = new System.Drawing.Point(75, 358);
             this.lblJuanito.Name = "lblJuanito";
             this.lblJuanito.Size = new System.Drawing.Size(96, 20);
-            this.lblJuanito.TabIndex = 2;
+            this.lblJuanito.TabIndex = 3;
             this.lblJuanito.Text = "Soy Juanito";
+            // 
+            // lblPepito
+            // 
+            this.lblPepito.AutoSize = true;
+            this.lblPepito.Location = new System.Drawing.Point(521, 66);
+            this.lblPepito.Name = "lblPepito";
+            this.lblPepito.Size = new System.Drawing.Size(91, 20);
+            this.lblPepito.TabIndex = 2;
+            this.lblPepito.Text = "Soy Pepito";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPepito);
             this.Controls.Add(this.lblJuanito);
             this.Controls.Add(this.btSegundo);
             this.Controls.Add(this.btAceptar);
@@ -80,6 +91,7 @@
 
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.Button btSegundo;
+        private System.Windows.Forms.Label lblPepito;
         private System.Windows.Forms.Label lblJuanito;
     }
 }
