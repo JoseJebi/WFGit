@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btAceptar = new System.Windows.Forms.Button();
+            this.btSegundo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btAceptar
@@ -40,11 +41,21 @@
             this.btAceptar.Text = "ACEPTAR";
             this.btAceptar.UseVisualStyleBackColor = true;
             // 
+            // btSegundo
+            // 
+            this.btSegundo.Location = new System.Drawing.Point(418, 146);
+            this.btSegundo.Name = "btSegundo";
+            this.btSegundo.Size = new System.Drawing.Size(104, 40);
+            this.btSegundo.TabIndex = 1;
+            this.btSegundo.Text = "NUEVO";
+            this.btSegundo.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btSegundo);
             this.Controls.Add(this.btAceptar);
             this.Name = "Form1";
             this.Text = "Formulario de ejemplo 3";
@@ -56,6 +67,7 @@
         #endregion
 
         private System.Windows.Forms.Button btAceptar;
+        private System.Windows.Forms.Button btSegundo;
     }
 }
 
