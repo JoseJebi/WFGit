@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btAceptar
+            // 
+            this.btAceptar.Location = new System.Drawing.Point(157, 138);
+            this.btAceptar.Name = "btAceptar";
+            this.btAceptar.Size = new System.Drawing.Size(115, 56);
+            this.btAceptar.TabIndex = 0;
+            this.btAceptar.Text = "ACEPTAR";
+            this.btAceptar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btAceptar);
             this.Name = "Form1";
             this.Text = "Formulario de ejemplo 3";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btAceptar;
     }
 }
 
