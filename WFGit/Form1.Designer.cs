@@ -42,6 +42,7 @@ namespace WFGit
             this.btAceptar.TabIndex = 0;
             this.btAceptar.Text = "ACEPTAR";
             this.btAceptar.UseVisualStyleBackColor = true;
+            this.btAceptar.Click += new System.EventHandler(this.btAceptar_Click);
             // 
             // btSegundo
             // 
@@ -52,23 +53,23 @@ namespace WFGit
             this.btSegundo.Text = "NUEVO";
             this.btSegundo.UseVisualStyleBackColor = true;
             // 
-            // lblJuanito
-            // 
-            this.lblJuanito.AutoSize = true;
-            this.lblJuanito.Location = new System.Drawing.Point(75, 358);
-            this.lblJuanito.Name = "lblJuanito";
-            this.lblJuanito.Size = new System.Drawing.Size(96, 20);
-            this.lblJuanito.TabIndex = 3;
-            this.lblJuanito.Text = "Soy Juanito";
-            // 
             // lblPepito
             // 
             this.lblPepito.AutoSize = true;
             this.lblPepito.Location = new System.Drawing.Point(521, 66);
             this.lblPepito.Name = "lblPepito";
-            this.lblPepito.Size = new System.Drawing.Size(91, 20);
+            this.lblPepito.Size = new System.Drawing.Size(73, 16);
             this.lblPepito.TabIndex = 2;
             this.lblPepito.Text = "Soy Pepito";
+            // 
+            // lblJuanito
+            // 
+            this.lblJuanito.AutoSize = true;
+            this.lblJuanito.Location = new System.Drawing.Point(75, 358);
+            this.lblJuanito.Name = "lblJuanito";
+            this.lblJuanito.Size = new System.Drawing.Size(77, 16);
+            this.lblJuanito.TabIndex = 3;
+            this.lblJuanito.Text = "Soy Juanito";
             // 
             // Form1
             // 

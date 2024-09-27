@@ -21,5 +21,10 @@ namespace WFGit
         {
 
         }
+
+        private void btAceptar_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine(btAceptar.Text);
+        }
     }
 }
